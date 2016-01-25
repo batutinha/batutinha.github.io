@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 1 ]; then
-	echo "error"
+	echo "df error"
     exit 1;
 fi
 
