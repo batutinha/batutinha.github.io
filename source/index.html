@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+generator: pagination
+pagination:
+    max_per_page: 5
+use:
+    - posts
+---
+<section class="container-fluid cover-blog">
+  <div class="title">o batutinha</div>
+  <div class="username">Fernando Gonçalves</div>
+  <div class="line"></div>
+  <div class="slogan">Building rocks in php</div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {% for post in page.pagination.items %}
+            <article class="post">
+                <header>
+                    <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="post-meta">Posted on {{ post.date | date('M d, Y') }}</p>
+                </header>
+                <div class="p">
+                    {{ post.blocks.content|raw|striptags|slice(0,140) }} ...
+                </div>
+                {% if post.meta.tags %}
+                <p class="tags">
+                    Tags:
+                    {% for tag in post.meta.tags %}
+                    <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </article>
+            {% endfor %}
+            {% if page.pagination.previous_page or page.pagination.next_page %}
+            <nav>
+                <ul class="pager">
+                {% if page.pagination.previous_page %}<li><a href="{{ site.url }}{{ page.pagination.previous_page.url }}">&larr; Posts mais recentes</a></li>{% endif %}
+                {% if page.pagination.next_page %}<li><a href="{{ site.url }}{{ page.pagination.next_page.url }}">Posts mais antigos &rarr;</a></li>{% endif %}
+                </ul>
+            </nav>
+            {% endif %}
+        </div>
+    </div>
+</div>
