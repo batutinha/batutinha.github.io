@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[batutinha]]></title>
+    <link href="/blog/categories/aviso.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-01-25T23:37:05-02:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Primerio post]]></title>
+            <link href="/blog/primerio-post"/>
+            <updated>2015-01-25T00:00:00-02:00</updated>
+            <id>/blog/primerio-post</id>
+            <content type="html"><![CDATA[<p>Olá pessoas, meu nome Fernando mas pode me chamar de <a href="//twitter.com/o_batutinha">batutinha</a>. Sou desenvolvedor php,
+criei esse blog para compartilhar conhecimento com vocês. Sejam
+bem vindos, sugestões, caneladas... Estou aberto.</p>
+
+<p>Irei falar de tudo um pouco, do básico ao avançado, front-end ao back-end
+vou tentar abordar de forma simples e desconplicada, conto com ajuda de vocês.</p>
+
+<p>Abraço.</p>
+]]></content>
+        </entry>
+    </feed>

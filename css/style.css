@@ -1,0 +1,140 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+}
+pre, code { background-color: #F8F8FF !important; }
+.container {
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
+
+p, .p {
+	font-size: 19px;
+}
+
+.navbar-default {
+	border-color: #f8f8f8;
+	text-transform: uppercase;
+	border-bottom: 5px solid #000000;
+	background-color: #fff;
+}
+
+.navbar-default a {
+	color: #000 !important;
+}
+
+.article-pager {
+	margin-top: 50px;
+}
+
+.cover-blog {
+	background-color: #333;
+	margin-top: -20px;
+	margin-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.cover-blog > .title, 
+.cover-blog > .username, 
+.cover-blog > .slogan {
+	text-align: center;
+	color: #fff;
+}
+
+.cover-blog > .title {
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.cover-blog > .username {
+	margin-top: -11px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cover-blog > .line {
+	background-color: #fff;
+	height: 5px;
+	width: 150px;
+	margin: 10px auto;
+}
+
+.cover-blog > .slogan {
+	font-size: 30px;
+}
+
+.page-title {
+	border-bottom: 3px solid black;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	margin-top: -9px;
+}
+
+.pager > a > span {
+	padding: 10px;
+	border: 1px solid #eee;
+}
+
+.page-tags > a {
+	border: 1px solid #eee;
+	padding:5px 12px;
+	border-radius: 15px;
+	float: left;
+	margin: 3px;
+}
+
+.about-me h3 {
+	margin-top: 0;
+}
+
+article.post {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+article.post > header > h2 {
+	font-size: 38px;
+	font-weight: 900;
+}
+
+nav.footer > a {
+	padding: 15px;
+	border: 1px solid #eee;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+
+nav.footer > a:hover{
+	background-color: #D2D2D2;
+}
+
+.post-meta {
+	color: gray;
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0;
+	font-weight: 300;
+}
+
+footer.container-fluid {
+	border-top: 1px solid #eee;
+	margin-top: 30px;
+}
+
+footer div.container {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+	
+}
+@media (min-width: 980px) {
+	
+}
